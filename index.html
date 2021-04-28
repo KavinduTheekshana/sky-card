@@ -31,37 +31,10 @@
 
     <link rel="stylesheet" href="styles/css/style.css" />
 
-    <style>
-      .swiper-container {
-        width: 100%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
 
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-    </style>
   </head>
   <body>
-    <nav>
+    <nav class="navbar-top">
       <div class="container">
         <div class="row">
           <div class="col-5">
@@ -69,13 +42,14 @@
               <ul>
                 <li><a class="navigation-link active" href="#">Home</a></li>
                 <li><a class="navigation-link" href="#">Sky Cards App</a></li>
-                <li><a class="navigation-link" href="#">Sky Network</a></li>
+                <li><a class="navigation-link" href="#">Sky Club</a></li>
                 <li><a class="navigation-link" href="#">Sky Daily</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-2">
-            <img src="assets/logo compressed.png" class="header-logo" alt="" />
+          <div class="col-2 d-flex justify-content-center">
+            <img src="assets/logo compressed.png" class="default-logo header-logo" alt="" />
+            <img src="assets/logo compressed.png" class="sticky-logo d-none" alt="" />
           </div>
           <div class="col-5">
             <div class="row">
@@ -99,31 +73,49 @@
           <div class="col-1"></div>
           <div class="col-4">
             <h1 data-animscroll="fade-up">Sky Card App</h1>
-            <h5 data-animscroll="fade-up" data-animscroll-delay="100"><span>Touchless</span> Smart Business cards Solution</h5>
-            <p data-animscroll="fade-up" data-animscroll-delay="200">Convert paper business card to digital with a single tap</p>
-            <a class="theam-btn" type="button" href="#" data-animscroll="fade-up" data-animscroll-delay="300">Learn More</a>
+            <h5 data-animscroll="fade-up" data-animscroll-delay="100">
+              <span>Touchless</span> Smart Business cards Solution
+            </h5>
+            <p data-animscroll="fade-up" data-animscroll-delay="200">
+              Convert paper business card to digital with a single tap
+            </p>
+            <a
+              class="theam-btn"
+              type="button"
+              href="#"
+              data-animscroll="fade-up"
+              data-animscroll-delay="300"
+              >Learn More</a
+            >
           </div>
           <div class="col-7">
-            <img data-animscroll="fade-left" src="assets/Group 69.png" style="width: 100%" alt="" />
+            <img
+              data-animscroll="fade-left"
+              src="assets/Group 69.png"
+              style="width: 100%"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section id="sky-network">
+    <section id="sky-club">
       <div class="dark-round" data-animscroll="fade-up">
-        <div class="container">
+        <div class="container p-4">
           <div class="row">
             <div class="col-6">
               <img
-                src="assets/skycard-slider-network.png"
-                style="width: 100%"
+                src="assets/Asset 1skynetwork.png"
+                style="width: 80%"
                 data-animscroll="fade-right"
               />
             </div>
             <div class="col-6 pl-5" data-animscroll="fade-left">
-              <h1 data-animscroll="fade-up">Sky <span>Network</span></h1>
-              <h5 data-animscroll="fade-up" data-animscroll-delay="100">The largest Network of websites</h5>
+              <h1 data-animscroll="fade-up">Sky <span>Club</span></h1>
+              <h5 data-animscroll="fade-up" data-animscroll-delay="100">
+                The largest Network of websites
+              </h5>
               <p data-animscroll="fade-up" data-animscroll-delay="200">
                 Connect, communicate and share within the largest network of
                 active websites.
@@ -134,12 +126,23 @@
               <br />
               <br />
               <br />
-              <a data-animscroll="fade-up" data-animscroll-delay="100" href="#" type="button" class="theam-btn-light">Learn More</a>
+              <a
+                data-animscroll="fade-up"
+                data-animscroll-delay="100"
+                href="#"
+                type="button"
+                class="theam-btn-light"
+                >Learn More</a
+              >
             </div>
           </div>
         </div>
       </div>
-      <div class="light-round" data-animscroll="fade-up" data-animscroll-delay="100"></div>
+      <div
+        class="light-round"
+        data-animscroll="fade-up"
+        data-animscroll-delay="300"
+      ></div>
     </section>
 
     <section id="sky-daily">
@@ -147,7 +150,9 @@
         <div class="row">
           <div class="col-6" data-animscroll="fade-right">
             <h1 data-animscroll="fade-up">Sky Daily</h1>
-            <h5 data-animscroll="fade-up" data-animscroll-delay="100">E-Mail Marketing Solution</h5>
+            <h5 data-animscroll="fade-up" data-animscroll-delay="100">
+              E-Mail Marketing Solution
+            </h5>
             <p data-animscroll="fade-up" data-animscroll-delay="200">
               Promote your business to Registered and authenticated websites and
               members of largest sky cards community.
@@ -155,10 +160,70 @@
             <br />
             <br />
             <br />
-            <a data-animscroll="fade-up" data-animscroll-delay="300" href="#" class="theam-btn" type="button">Learn More</a>
+            <a
+              data-animscroll="fade-up"
+              data-animscroll-delay="300"
+              href="#"
+              class="theam-btn"
+              type="button"
+              >Learn More</a
+            >
           </div>
           <div class="col-6" data-animscroll="fade-left">
             <img src="assets/Group 70.png" style="width: 100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sky-vip">
+      <div
+        class="left-blue"
+        data-animscroll="fade-right"
+        data-animscroll-delay="100"
+      ></div>
+      <div class="container vip-container">
+        <div class="row">
+          <div class="col-6">
+            <div class="details">
+              <h1 data-animscroll="fade-up">Sky <span>VIP</span></h1>
+              <h5 data-animscroll="fade-up">
+                Become a member & enjoy exclusive offers from
+              </h5>
+              <div class="button-set">
+                <a
+                  data-animscroll="fade-up"
+                  data-animscroll-delay="100"
+                  href="#"
+                  class="theam-btn-light"
+                  type="button"
+                  style="padding: 10px 50px"
+                  >Hotels</a
+                >
+
+                <a
+                  data-animscroll="fade-up"
+                  data-animscroll-delay="200"
+                  href="#"
+                  class="theam-btn-light"
+                  type="button"
+                  style="padding: 10px 50px"
+                  >Restaurants</a
+                >
+
+                <a
+                  data-animscroll="fade-up"
+                  data-animscroll-delay="300"
+                  href="#"
+                  class="theam-btn-light"
+                  type="button"
+                  >Clubs</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <img data-animscroll="fade-left" style="width: 80%" src="assets/Layer 2.png" alt="" />
           </div>
         </div>
       </div>
@@ -172,35 +237,58 @@
           </div>
           <div class="col-6 pl-5" data-animscroll="fade-left">
             <h1 data-animscroll="fade-up">Contact Organizer</h1>
-            <h5 data-animscroll="fade-up" data-animscroll-delay="100">Forget about card holders!</h5>
+            <h5 data-animscroll="fade-up" data-animscroll-delay="100">
+              Forget about card holders!
+            </h5>
             <p data-animscroll="fade-up" data-animscroll-delay="200">
               All contacts are stored in a cloud and synchronized across your
               devices, allowing access from your smartphone, tablet or computer.
             </p>
-            <a data-animscroll="fade-up" data-animscroll-delay="300" href="#" class="theam-btn mt-4" type="button">Learn More</a>
+            <a
+              data-animscroll="fade-up"
+              data-animscroll-delay="300"
+              href="#"
+              class="theam-btn mt-4"
+              type="button"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
     </section>
 
     <section id="sky-card-app">
-      <div class="dark-round" data-animscroll="fade-up" data-animscroll-delay="100">
+      <div
+        class="dark-round"
+        data-animscroll="fade-up"
+        data-animscroll-delay="100"
+      >
         <div class="container">
           <div class="row">
             <div class="col-1"></div>
             <div class="col-7 pl-5" data-animscroll="fade-right">
-              <h1 data-animscroll="fade-up" data-animscroll-delay="100">Sky Card App</h1>
+              <h1 data-animscroll="fade-up" data-animscroll-delay="100">
+                Sky Card App
+              </h1>
               <br />
-              <h5 data-animscroll="fade-up" data-animscroll-delay="200">Enter business cards into your smartphone</h5>
-              <h6 data-animscroll="fade-up" data-animscroll-delay="200">Fast, easy and accurate.</h6>
+              <h5 data-animscroll="fade-up" data-animscroll-delay="200">
+                Enter business cards into your smartphone
+              </h5>
+              <h6 data-animscroll="fade-up" data-animscroll-delay="200">
+                Fast, easy and accurate.
+              </h6>
               <p data-animscroll="fade-up" data-animscroll-delay="300">
                 Use your smartphone to scan business cards and save all the data
                 to your contact list.
               </p>
               <br />
               <br />
-              <h5 data-animscroll="fade-up" data-animscroll-delay="100">Share your contacts</h5>
-              <h6 data-animscroll="fade-up" data-animscroll-delay="200">Touchless in 2021</h6>
+              <h5 data-animscroll="fade-up" data-animscroll-delay="100">
+                Share your contacts
+              </h5>
+              <h6 data-animscroll="fade-up" data-animscroll-delay="200">
+                Touchless in 2021
+              </h6>
               <p data-animscroll="fade-up" data-animscroll-delay="300">
                 Network and share your contact details with just one tap.
                 Sending an e-mail with your digital business card now only takes
@@ -208,7 +296,11 @@
               </p>
               <br />
               <div class="row">
-                <div class="col-4" data-animscroll="fade-up" data-animscroll-delay="300">
+                <div
+                  class="col-4"
+                  data-animscroll="fade-up"
+                  data-animscroll-delay="300"
+                >
                   <a href="#">
                     <img
                       src="assets/Mask Group 6.png"
@@ -217,7 +309,11 @@
                     />
                   </a>
                 </div>
-                <div class="col-4" data-animscroll="fade-up" data-animscroll-delay="400">
+                <div
+                  class="col-4"
+                  data-animscroll="fade-up"
+                  data-animscroll-delay="400"
+                >
                   <a href="#">
                     <img
                       src="assets/Mask Group 7.png"
@@ -235,7 +331,11 @@
           </div>
         </div>
       </div>
-      <div class="light-round" data-animscroll="fade-up" data-animscroll-delay="200"></div>
+      <div
+        class="light-round"
+        data-animscroll="fade-up"
+        data-animscroll-delay="200"
+      ></div>
     </section>
 
     <footer>
@@ -248,7 +348,11 @@
               clita kasd gubergren, no sea takimata
             </p>
           </div>
-          <div class="col-3" data-animscroll="fade-up" data-animscroll-delay="100">
+          <div
+            class="col-3"
+            data-animscroll="fade-up"
+            data-animscroll-delay="100"
+          >
             <h1>Heading 2</h1>
             <ul>
               <li><a href="#">Lorem ipsum link</a></li>
@@ -258,7 +362,11 @@
               <li><a href="#">Lorem ipsum link</a></li>
             </ul>
           </div>
-          <div class="col-3" data-animscroll="fade-up" data-animscroll-delay="200">
+          <div
+            class="col-3"
+            data-animscroll="fade-up"
+            data-animscroll-delay="200"
+          >
             <h1>Heading 2</h1>
             <ul>
               <li><i class="fas fa-map-marker-alt"></i>Lorem ipsum address</li>
@@ -270,7 +378,11 @@
               </li>
             </ul>
           </div>
-          <div class="col-3" data-animscroll="fade-up" data-animscroll-delay="300">
+          <div
+            class="col-3"
+            data-animscroll="fade-up"
+            data-animscroll-delay="300"
+          >
             <h1>Follow Us</h1>
             <br />
             <div class="row m-0">
@@ -305,6 +417,7 @@
 
     <script src="plugin/AnimTrap/js/anim-trap.js"></script>
     <script src="plugin/AnimTrap/js/anim-scroll.js"></script>
+    <script src="js/main.js"></script>
     <script>
       ANIMSCROLL.init({
         easing: "ease-in-out-sine",
